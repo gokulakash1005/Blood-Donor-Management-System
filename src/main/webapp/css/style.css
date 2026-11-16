@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.card {
+    background: white;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.card.wide {
+    max-width: 1000px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    color: #b30000;
+}
+
+h2 {
+    font-size: 20px;
+    color: #b30000;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+p {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    background: #b30000;
+    color: white;
+    padding: 9px 16px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn.grey {
+    background: #555;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.links a {
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+th {
+    background: #f7f7f7;
+}
+
+.msg {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.msg.error {
+    background: #ffe5e5;
+    color: #a10000;
+}
+
+.msg.ok {
+    background: #e5ffe5;
+    color: #006600;
+}
+
+.small {
+    font-size: 13px;
+    color: #666;
+}
+
+.tag {
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.tag.green {
+    background: #2e8b57;
+}
+
+.tag.red {
+    background: #b30000;
+}
